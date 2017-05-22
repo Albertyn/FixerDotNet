@@ -9,12 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixerDotNetCore.Components"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixerDotNetCore.Domain", "FixerDotNetCore.Domain\FixerDotNetCore.Domain.csproj", "{882CF8EC-5DBB-435F-9B23-387DD25D4E44}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{3A7126F2-BF0F-4EB5-9FCD-1A53F676A90E}"
-	ProjectSection(SolutionItems) = preProject
-		..\FixerDotNet\Countries.json = ..\FixerDotNet\Countries.json
-		..\FixerDotNet\CountyDictionary.json = ..\FixerDotNet\CountyDictionary.json
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
