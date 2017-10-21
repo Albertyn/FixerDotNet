@@ -35,12 +35,12 @@ namespace FixerDotNetCore.Controllers
             _MongoDatabase = _MongoClient.GetDatabase("ExchangeRates");
             _MongoCollection = _MongoDatabase.GetCollection<Fixer>("Fixes");
         }
+        
         // GET: api/Rates
         [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        public IEnumerable<string> Get() => new string[] { "foo", "bar" };
+
+
         [HttpGet("Date/{Date:datetime}")]
         public async Task<JsonResult> GetRatesByDateAsync(DateTime date, string list = "")
         {

@@ -27,7 +27,7 @@ namespace FixerDotNetCore.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "test_value1", "test_value2" };
         }
 
         [HttpGet("{Base}/{Amount:double}/{Target}")]
